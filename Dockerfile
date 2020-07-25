@@ -10,6 +10,7 @@ RUN apt-get update \
         unzip \
         screen \
         vim \
+        iproute2 \
     && apt-get clean
 
 # Install python miniconda3 + requirements
